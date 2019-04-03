@@ -190,7 +190,7 @@ class App extends Component {
         </Switch>
       );
     }
-    return (
+   return (
       <Fragment>
         {this.state.showBackdrop && (
           <Backdrop onClick={this.backdropClickHandler} />
